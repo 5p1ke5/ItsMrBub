@@ -1,0 +1,1 @@
+phys_initialize(0, 0, -1, 1, true);
