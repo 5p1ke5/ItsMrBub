@@ -18,7 +18,7 @@ function globals_initialize()
 	]
 	
 	global.inventory = ds_list_create();
-	ds_list_add(global.inventory, obj_inventoryBlueDye, obj_inventoryGreenDye, obj_inventoryRedDye, obj_inventoryBlueDye, obj_inventoryGreenDye, obj_inventoryRedDye);
+	//ds_list_add(global.inventory, obj_inventoryBlueDye, obj_inventoryGreenDye, obj_inventoryRedDye);
 	
 	show_debug_message("Globals initialized.");
 }

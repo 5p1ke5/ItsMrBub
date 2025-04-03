@@ -1,6 +1,6 @@
 ///@function button_initialize(_text, _description)
 ///@param _text The text displayed on the button.
-///@param [_description] The text disaplayed when the button is hovered over. if "" nothing displayed.
+///@param [_description] The text disaplayed when the button is hovered over. if "" nothing is displayed.
 function button_initialize(_text, _description = "")
 {
 	text = _text;

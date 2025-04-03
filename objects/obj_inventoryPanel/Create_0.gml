@@ -18,5 +18,6 @@ for (var _i = 0; _i < ds_list_size(global.inventory); _i++)
 	{
 		owner = _id;
 	}
+	
 	ds_list_add(elements, _instance); //Updates list of elements.
 }

@@ -1,1 +1,2 @@
-/// @description Checks if the player has enough money. Then checks 
+/// @description Goes to the shop.
+room_goto(SHOP);

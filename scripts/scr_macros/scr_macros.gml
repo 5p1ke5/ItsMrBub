@@ -6,7 +6,7 @@
 #region //Room references
 #macro TITLE room_title
 #macro PET room_pet
-#macro STORE room_store
+#macro SHOP room_store
 #endregion
 
 #region //Constant numbers
