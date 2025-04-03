@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_paintButtonRed",
+  "%Name":"obj_shopButton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_paintButtonRed",
+  "name":"obj_shopButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"store",
-    "path":"folders/Objects/buttons/store.yy",
+    "name":"buttons",
+    "path":"folders/Objects/buttons.yy",
   },
   "parentObjectId":{
     "name":"abs_button",

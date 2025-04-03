@@ -1,0 +1,1 @@
+/// @description Checks if the player has enough money. Then checks 

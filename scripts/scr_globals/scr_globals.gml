@@ -14,9 +14,11 @@ function globals_initialize()
 	global.roomIndex = 0;
 	global.rooms =
 	[
-		//room_level1, room_level2, room_level3
 		room_level1, room_level2, room_level3
 	]
+	
+	global.inventory = ds_list_create();
+	ds_list_add(global.inventory, obj_inventoryBlueDye, obj_inventoryGreenDye, obj_inventoryRedDye, obj_inventoryBlueDye, obj_inventoryGreenDye, obj_inventoryRedDye);
 	
 	show_debug_message("Globals initialized.");
 }
