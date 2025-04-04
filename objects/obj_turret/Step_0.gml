@@ -21,6 +21,9 @@ if (instance_exists(obj_player))
 			}
 		
 			shootTimer = shootTime;
+			
+			//play sfx
+			audio_play_sound(sfx_shoot, 2, false);
 		}
 	}
 }

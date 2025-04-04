@@ -8,6 +8,9 @@ if (enabled)
 		global.money -= price;
 		array_push(global.inventory, object);
 		enabled = false;
+		
+		//Plays sfx
+		audio_play_sound(sfx_buy, 2, false);
 	}
 	else
 	{
