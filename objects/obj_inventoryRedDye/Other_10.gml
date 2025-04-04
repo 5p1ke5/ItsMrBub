@@ -1,4 +1,4 @@
-/// @description When clicked on, dyes the player character and updates global.color.
+/// @description When clicked on, dyes the player character and updates global.color. Toggles.
 global.color = color;
 
 var _player = instance_find(obj_player, 0)
@@ -9,3 +9,6 @@ if (_player != noone)
 		image_blend = global.color;	
 	}
 }
+
+//calls parent to switch toggle off/on
+event_inherited();

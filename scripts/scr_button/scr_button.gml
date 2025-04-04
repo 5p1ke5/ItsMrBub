@@ -8,6 +8,18 @@ function button_initialize(_text, _description = "")
 	tooltipOn = false;
 }
 
+
+///@function button_toggle_initialize(_text, _toggle = false, _description = "")
+///@description Creates a button that displays if it's on or off.
+///@param _text The text displayed on the button.
+///@param _toggle If the button starts out toggled off or on.
+///@param [_description] The text disaplayed when the button is hovered over. if "" nothing is displayed.
+function button_toggle_initialize(_text, _toggle = false, _description = "")
+{
+	button_initialize(_text, _description);
+	toggle = _toggle;
+}
+
 ///@function button_shop_initialize(_text, _object, _price, _description, _enabled)
 ///@description Initializes variables for a button that a shop uses.
 ///@param _text The text displayed on the button.

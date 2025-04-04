@@ -13,8 +13,8 @@
     "path":"folders/Objects/inventory.yy",
   },
   "parentObjectId":{
-    "name":"abs_inventoryItem",
-    "path":"objects/abs_inventoryItem/abs_inventoryItem.yy",
+    "name":"obj_inventoryItemToggleable",
+    "path":"objects/obj_inventoryItemToggleable/obj_inventoryItemToggleable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

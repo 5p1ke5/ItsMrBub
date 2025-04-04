@@ -41,6 +41,7 @@
     {"name":"obj_inventoryButton","order":4,"path":"objects/obj_inventoryButton/obj_inventoryButton.yy",},
     {"name":"obj_inventoryFood","order":3,"path":"objects/obj_inventoryFood/obj_inventoryFood.yy",},
     {"name":"obj_inventoryGreenDye","order":5,"path":"objects/obj_inventoryGreenDye/obj_inventoryGreenDye.yy",},
+    {"name":"obj_inventoryItemToggleable","order":6,"path":"objects/obj_inventoryItemToggleable/obj_inventoryItemToggleable.yy",},
     {"name":"obj_inventoryPanel","order":1,"path":"objects/obj_inventoryPanel/obj_inventoryPanel.yy",},
     {"name":"obj_inventoryRedDye","order":2,"path":"objects/obj_inventoryRedDye/obj_inventoryRedDye.yy",},
     {"name":"obj_money","order":7,"path":"objects/obj_money/obj_money.yy",},

@@ -68,6 +68,7 @@
     {"id":{"name":"obj_inventoryButton","path":"objects/obj_inventoryButton/obj_inventoryButton.yy",},},
     {"id":{"name":"obj_inventoryFood","path":"objects/obj_inventoryFood/obj_inventoryFood.yy",},},
     {"id":{"name":"obj_inventoryGreenDye","path":"objects/obj_inventoryGreenDye/obj_inventoryGreenDye.yy",},},
+    {"id":{"name":"obj_inventoryItemToggleable","path":"objects/obj_inventoryItemToggleable/obj_inventoryItemToggleable.yy",},},
     {"id":{"name":"obj_inventoryPanel","path":"objects/obj_inventoryPanel/obj_inventoryPanel.yy",},},
     {"id":{"name":"obj_inventoryRedDye","path":"objects/obj_inventoryRedDye/obj_inventoryRedDye.yy",},},
     {"id":{"name":"obj_money","path":"objects/obj_money/obj_money.yy",},},
