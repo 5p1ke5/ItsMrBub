@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_saveButton",
+  "%Name":"obj_loadButton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_saveButton",
+  "name":"obj_loadButton",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",

@@ -1,0 +1,1 @@
+/// @description Delets the saved game.

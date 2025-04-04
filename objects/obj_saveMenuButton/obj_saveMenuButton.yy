@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_saveButton",
+  "%Name":"obj_saveMenuButton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_saveButton",
+  "name":"obj_saveMenuButton",
   "overriddenProperties":[],
   "parent":{
     "name":"buttons",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button",
-    "path":"sprites/spr_button/spr_button.yy",
+    "name":"spr_saveIcon",
+    "path":"sprites/spr_saveIcon/spr_saveIcon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

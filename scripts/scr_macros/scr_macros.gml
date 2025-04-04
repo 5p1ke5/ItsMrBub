@@ -7,6 +7,7 @@
 #macro TITLE room_title
 #macro PET room_pet
 #macro SHOP room_store
+#macro SAVE room_save
 #endregion
 
 #region //Constant numbers
