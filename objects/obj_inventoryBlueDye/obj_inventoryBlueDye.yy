@@ -12,8 +12,8 @@
     "path":"folders/Objects/inventory.yy",
   },
   "parentObjectId":{
-    "name":"abs_inventoryItem",
-    "path":"objects/abs_inventoryItem/abs_inventoryItem.yy",
+    "name":"obj_inventoryRedDye",
+    "path":"objects/obj_inventoryRedDye/obj_inventoryRedDye.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
