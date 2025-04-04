@@ -19,8 +19,8 @@ function globals_initialize()
 	
 	
 	//	TODO: make this an array
-	global.inventory = ds_list_create();
-	ds_list_add(global.inventory, obj_inventoryRedDye);
+	global.inventory = [];
+	array_push(global.inventory, obj_inventoryRedDye);
 	
 	show_debug_message("Globals initialized.");
 }

@@ -7,5 +7,5 @@ if (global.food <= 0)
 {
 	instance_destroy();
 	//not sure if this works ds_list_find_index has been weird with objects
-	ds_list_delete(global.inventory, ds_list_find_index(global.inventory, obj_food));
+	//ds_list_delete(global.inventory, ds_list_find_index(global.inventory, obj_food));
 }

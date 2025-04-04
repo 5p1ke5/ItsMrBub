@@ -22,13 +22,6 @@ function button_shop_initialize(_text, _object, _price, _description = "")
 	
 	//Checks if the object is already in the player's inventory, and if so disables this object.
 	//In special cases (eg food) this can be overwritten after intialization in the create event.
-	enabled = true;
-	for (var _i = 0; _i < ds_list_size(global.inventory); _i++) 
-	{
-	    if (ds_list_find_value(global.inventory, _i) == object)
-		{
-			enabled = false;	
-		}
-	}
+	enabled = !array_contains(global.inventory, object);
 	
 }
