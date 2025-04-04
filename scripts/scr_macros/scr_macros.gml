@@ -69,4 +69,5 @@
 
 #region //Colors
 #macro c_salmon make_color_rgb(255, 190, 190)
+#macro c_rainbow -1
 #endregion
