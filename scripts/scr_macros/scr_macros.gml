@@ -31,6 +31,8 @@
 #macro START_BUTTON ((gamepad_button_check(0, gp_start)) || (keyboard_check(vk_enter)))
 #macro MOUSE_LEFT_BUTTON mouse_check_button(mb_left)
 #macro MOUSE_RIGHT_BUTTON mouse_check_button(mb_right)
+#macro MOUSE_LEFT_BUTTON_NOT_GUI (!position_meeting(mouse_x, mouse_y, abs_gui) && MOUSE_LEFT_BUTTON)
+#macro MOUSE_RIGHT_BUTTON_NOT_GUI (!position_meeting(mouse_x, mouse_y, abs_gui) && MOUSE_RIGHT_BUTTON)
 #macro MOUSE_WHEEL_UP mouse_wheel_up()
 #macro MOUSE_WHEEL_DOWN mouse_wheel_down()
 
@@ -45,6 +47,8 @@
 #macro Y_BUTTON_PRESSED (keyboard_check_pressed(ord("C"))	|| gamepad_button_check_pressed(0, gp_face4))
 #macro MOUSE_LEFT_BUTTON_PRESSED mouse_check_button_pressed(mb_left)
 #macro MOUSE_RIGHT_BUTTON_PRESSED mouse_check_button_pressed(mb_right)
+#macro MOUSE_LEFT_BUTTON_PRESSED_NOT_GUI (!position_meeting(mouse_x, mouse_y, abs_gui) && MOUSE_LEFT_BUTTON_PRESSED)
+#macro MOUSE_RIGHT_BUTTON_PRESSED_NOT_GUI (!position_meeting(mouse_x, mouse_y, abs_gui) && MOUSE_RIGHT_BUTTON_PRESSED)
 
 #macro ANY_BUTTON_RELEASED (keyboard_check_released(vk_anykey))
 #macro START_BUTTON_RELEASED ((gamepad_button_check_released(0, gp_start)) || (keyboard_check_released(vk_enter)))
@@ -59,4 +63,10 @@
 #macro FACE_BUTTON_RELEASED (A_BUTTON_RELEASED || B_BUTTON_RELEASED || X_BUTTON_RELEASED || Y_BUTTON_RELEASED) 
 #macro MOUSE_LEFT_BUTTON_RELEASED mouse_check_button_pressed(mb_left)
 #macro MOUSE_RIGHT_BUTTON_RELEASED mouse_check_button_pressed(mb_right)
+#macro MOUSE_LEFT_BUTTON_RELEASED_NOT_GUI (!position_meeting(mouse_x, mouse_y, abs_gui) && MOUSE_LEFT_BUTTON_RELEASED)
+#macro MOUSE_RIGHT_BUTTON_RELEASED_NOT_GUI (!position_meeting(mouse_x, mouse_y, abs_gui) && MOUSE_RIGHT_BUTTON_RELEASED)
+#endregion
+
+#region //Colors
+#macro c_salmon make_color_rgb(255, 190, 190);
 #endregion

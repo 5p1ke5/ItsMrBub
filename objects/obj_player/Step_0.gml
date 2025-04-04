@@ -2,7 +2,7 @@
 phys_step_bounce();
 
 //controls
-if (MOUSE_LEFT_BUTTON_RELEASED)
+if (MOUSE_LEFT_BUTTON_RELEASED_NOT_GUI)
 {
 	var _angle = point_direction(mouse_x, mouse_y, x, y);
 	

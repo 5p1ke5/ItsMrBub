@@ -9,7 +9,7 @@ function globals_initialize()
 	global.music = noone;
 	
 	
-	global.color = noone;
+	global.color = c_white;
 	
 	global.roomIndex = 0;
 	global.rooms =

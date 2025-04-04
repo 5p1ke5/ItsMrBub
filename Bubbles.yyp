@@ -44,6 +44,7 @@
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
     {"id":{"name":"fnt_small","path":"fonts/fnt_small/fnt_small.yy",},},
     {"id":{"name":"fnt_smaller","path":"fonts/fnt_smaller/fnt_smaller.yy",},},
+    {"id":{"name":"fnt_smallest","path":"fonts/fnt_smallest/fnt_smallest.yy",},},
     {"id":{"name":"abs_button","path":"objects/abs_button/abs_button.yy",},},
     {"id":{"name":"abs_gui","path":"objects/abs_gui/abs_gui.yy",},},
     {"id":{"name":"abs_inventoryItem","path":"objects/abs_inventoryItem/abs_inventoryItem.yy",},},

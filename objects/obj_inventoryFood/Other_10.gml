@@ -6,9 +6,12 @@ if (global.food > 0)
 	instance_create_layer(_x, 0, layer, obj_food);
 }
 
+//Decrements food amount.
 global.food--;
+
+//If out of food, deletes the the button and removes self from the inventory array.
 if (global.food <= 0)
 {
 	instance_destroy();
-	array_delete(global.inventory, array_get_index(global.inventory, object), 1);
+	array_delete(global.inventory, array_get_index(global.inventory, object_index), 1);
 }

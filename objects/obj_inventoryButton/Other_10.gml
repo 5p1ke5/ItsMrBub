@@ -1,7 +1,7 @@
 /// @description Makes the inventory panel appear.
 if (myPanel == noone)
 {
-	myPanel = instance_create_depth(32, 32, depth + 1, obj_inventoryPanel);
+	myPanel = instance_create_layer(32, 32, layer, obj_inventoryPanel);
 }
 else //If it's there already makes it disappear.
 {
