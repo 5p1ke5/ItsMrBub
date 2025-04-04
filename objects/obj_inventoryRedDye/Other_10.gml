@@ -9,6 +9,9 @@ if (_player != noone)
 		image_blend = global.color;	
 	}
 }
+		
+//Plays sfx
+audio_play_sound(sfx_useDye, 2, false);
 
 //calls parent to switch toggle off/on
 event_inherited();

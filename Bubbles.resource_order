@@ -74,6 +74,7 @@
     {"name":"sfx_food","order":1,"path":"sounds/sfx_food/sfx_food.yy",},
     {"name":"sfx_money","order":2,"path":"sounds/sfx_money/sfx_money.yy",},
     {"name":"sfx_shoot","order":5,"path":"sounds/sfx_shoot/sfx_shoot.yy",},
+    {"name":"sfx_useDye","order":6,"path":"sounds/sfx_useDye/sfx_useDye.yy",},
     {"name":"bg_dungeon1","order":1,"path":"sprites/bg_dungeon1/bg_dungeon1.yy",},
     {"name":"bg_dungeon2","order":2,"path":"sprites/bg_dungeon2/bg_dungeon2.yy",},
     {"name":"bg_dungeon3","order":3,"path":"sprites/bg_dungeon3/bg_dungeon3.yy",},

@@ -12,6 +12,9 @@ if (enabled)
 		}
 		global.money -= price;
 		global.food++;
+		
+		//Plays sfx
+		audio_play_sound(sfx_buy, 2, false);
 	}
 	else
 	{

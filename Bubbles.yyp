@@ -107,6 +107,7 @@
     {"id":{"name":"sfx_food","path":"sounds/sfx_food/sfx_food.yy",},},
     {"id":{"name":"sfx_money","path":"sounds/sfx_money/sfx_money.yy",},},
     {"id":{"name":"sfx_shoot","path":"sounds/sfx_shoot/sfx_shoot.yy",},},
+    {"id":{"name":"sfx_useDye","path":"sounds/sfx_useDye/sfx_useDye.yy",},},
     {"id":{"name":"bg_dungeon1","path":"sprites/bg_dungeon1/bg_dungeon1.yy",},},
     {"id":{"name":"bg_dungeon2","path":"sprites/bg_dungeon2/bg_dungeon2.yy",},},
     {"id":{"name":"bg_dungeon3","path":"sprites/bg_dungeon3/bg_dungeon3.yy",},},
