@@ -24,9 +24,9 @@ if (color == noone)
 hungerTimer--;
 if (hungerTimer < 0)
 {
-	if (global.food  > 0)
+	if (global.hunger  > 0)
 	{
-		global.food--;	
+		global.hunger--;	
 	}
 	else
 	{

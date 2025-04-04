@@ -12,7 +12,10 @@
     "name":"inventory",
     "path":"folders/Objects/inventory.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"abs_gui",
+    "path":"objects/abs_gui/abs_gui.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_inventoryPanel",
+    "path":"sprites/spr_inventoryPanel/spr_inventoryPanel.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

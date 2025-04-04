@@ -11,7 +11,7 @@ for (var _i = 0; _i < array_length(global.inventory); _i++)
 	var _x = x + (_i mod _columns) * (_width + _margin);
 	var _y = y + (_i div _columns) * (_height + _margin);
 	var _object = global.inventory[_i];
-    var _instance = instance_create_depth(_x, _y, depth, _object);
+    var _instance = instance_create_depth(_x, _y, depth - 1, _object);
 	
 	//Gives each createed instance a reference to this panel.
 	with (_instance)

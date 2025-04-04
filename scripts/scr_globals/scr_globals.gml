@@ -2,7 +2,7 @@
 /// @description Initializes the game's global variabls.
 function globals_initialize()
 {
-	global.food = 100;
+	global.hunger = 100;
 	global.happiness = 100;
 	global.money = 1000;
 	
@@ -20,7 +20,7 @@ function globals_initialize()
 	
 	//	TODO: make this an array
 	global.inventory = [];
-	array_push(global.inventory, obj_inventoryRedDye);
+	global.food = 0;
 	
 	show_debug_message("Globals initialized.");
 }

@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inventoryBlueDye",
+  "%Name":"obj_buyButtonFood",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_inventoryBlueDye",
+  "name":"obj_buyButtonFood",
   "overriddenProperties":[],
   "parent":{
-    "name":"inventory",
-    "path":"folders/Objects/inventory.yy",
+    "name":"store",
+    "path":"folders/Objects/buttons/store.yy",
   },
   "parentObjectId":{
-    "name":"abs_inventoryItem",
-    "path":"objects/abs_inventoryItem/abs_inventoryItem.yy",
+    "name":"obj_buyButton",
+    "path":"objects/obj_buyButton/obj_buyButton.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dyeBlue",
-    "path":"sprites/spr_dyeBlue/spr_dyeBlue.yy",
+    "name":"spr_button",
+    "path":"sprites/spr_button/spr_button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

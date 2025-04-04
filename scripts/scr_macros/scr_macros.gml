@@ -13,7 +13,7 @@
 #macro TERMINAL_VELOCITY 3
 #macro HUNGER_INCREMENT 300
 #macro MAX_HAPPINESS 100
-#macro MAX_FOOD 100
+#macro MAX_HUNGER 100
 #endregion
 
 
