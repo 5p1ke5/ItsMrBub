@@ -5,7 +5,7 @@ if (enabled)
 	//Adds the object referecned by this button to the player's inventory, disables the button.
 	if (global.money > price)
 	{
-		ds_list_add(global.inventory, object);	
+		ds_list_add(global.inventory, object);
 		enabled = false;
 	}
 	else
