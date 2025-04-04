@@ -17,8 +17,10 @@ function globals_initialize()
 		room_level1, room_level2, room_level3
 	]
 	
+	
+	//	TODO: make this an array
 	global.inventory = ds_list_create();
-	//ds_list_add(global.inventory, obj_inventoryBlueDye, obj_inventoryGreenDye, obj_inventoryRedDye);
+	ds_list_add(global.inventory, obj_inventoryRedDye);
 	
 	show_debug_message("Globals initialized.");
 }

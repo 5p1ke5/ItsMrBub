@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_buyButtonRedDye",
-  "eventList":[],
+  "%Name":"obj_inventoryFood",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_buyButtonRedDye",
+  "name":"obj_inventoryFood",
   "overriddenProperties":[],
   "parent":{
-    "name":"store",
-    "path":"folders/Objects/buttons/store.yy",
+    "name":"inventory",
+    "path":"folders/Objects/inventory.yy",
   },
   "parentObjectId":{
-    "name":"obj_buyButton",
-    "path":"objects/obj_buyButton/obj_buyButton.yy",
+    "name":"abs_inventoryItem",
+    "path":"objects/abs_inventoryItem/abs_inventoryItem.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button",
-    "path":"sprites/spr_button/spr_button.yy",
+    "name":"spr_food",
+    "path":"sprites/spr_food/spr_food.yy",
   },
   "spriteMaskId":null,
   "visible":true,
