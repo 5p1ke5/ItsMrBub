@@ -8,8 +8,16 @@ function game_initialize()
 	
 	ini_open(SAVE_FILENAME)
 	
-	ini_section_delete("STATS");
-	ini_section_delete("INVENTORY");
+	//If a save file is found attemps to load.
+	if (ini_section_exists("STATS"))
+	{
+		ini_close();
+		savegame_load(SAVE_FILENAME);
+	}
+	else
+	{
+		ini_close();	
+	}
 	
-	ini_close();
+	
 }

@@ -14,6 +14,16 @@ if (enabled)
 	}
 	else
 	{
-		//Make the tooltip thing in the shop room say like "You don't have the money!!"	
+		
+		var _textbox = instance_find(obj_shopTextBox, 0);
+
+		if (_textbox != noone)
+		{
+			with (_textbox)
+			{
+				cost = "You don't have enough money!";
+				description = "";
+			}
+		}
 	}
 }

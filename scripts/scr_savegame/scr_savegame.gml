@@ -42,6 +42,8 @@ function savegame_load(_file)
 
 
 	//Reads from the inventory section.
+	
+	global.inventory = []; //Resets inventory.
 	var _i = 0;
 	while ini_key_exists("INVENTORY", string(_i)) 
 	{
@@ -54,7 +56,7 @@ function savegame_load(_file)
 }
 
 ///@function savegame_delete(_file)
-///@description Clears an ini file and restores it to default values
+///@description Clears an ini file 
 ///@param _file Name of the file to revert.
 function savegame_delete(_file)
 {
@@ -64,9 +66,5 @@ function savegame_delete(_file)
 	ini_section_delete("STATS");
 	ini_section_delete("INVENTORY");
 	
-	//Loads the empty file to insert default values.
-	savegame_load(_file);
-	
-	//Saves the newly created default file.
-	savegame_save(_file);
+	ini_close();
 }
