@@ -1,5 +1,5 @@
 /// @description Initializes physics
-phys_initialize(0.02, 0, 0, 0, true);
+phys_initialize(PLAYER_WEIGHT, 0, 0, 0, true);
 
 image_blend = global.color;
 

@@ -8,6 +8,9 @@ function globals_initialize()
 	
 	global.music = noone;
 	
+	//Powerup things.
+	global.lightCharm = false;
+	global.powerStone = false;
 	
 	global.color = c_white;
 	

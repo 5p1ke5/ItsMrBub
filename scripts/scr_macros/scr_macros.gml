@@ -11,10 +11,12 @@
 #endregion
 
 #region //Constant numbers
-#macro TERMINAL_VELOCITY 3
+#macro TERMINAL_VELOCITY 3 - (global.lightCharm)
+#macro MAX_ACCEL 3 + (global.powerStone)
 #macro HUNGER_INCREMENT 300
 #macro MAX_HAPPINESS 100
 #macro MAX_HUNGER 100
+#macro PLAYER_WEIGHT 0.02 - (0.015 * global.lightCharm)
 #endregion
 
 #region
