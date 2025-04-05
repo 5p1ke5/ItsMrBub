@@ -11,6 +11,9 @@ function globals_initialize()
 	//Powerup things.
 	global.lightCharm = false;
 	global.powerStone = false;
+	global.darkStone = false;
+	global.wisdomIcon = false;
+	global.inverter = false;
 	
 	global.color = c_white;
 	

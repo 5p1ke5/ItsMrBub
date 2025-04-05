@@ -6,8 +6,8 @@ if (MOUSE_LEFT_BUTTON_RELEASED_NOT_GUI)
 {
 	var _angle = point_direction(mouse_x, mouse_y, x, y);
 	
-	hsp = phys_force_add(hsp, dsin(_angle + 90) * 2, MAX_ACCEL);
-	vsp = phys_force_add(vsp, dcos(_angle + 90) * 2, MAX_ACCEL);
+	hsp = phys_force_add(hsp, dsin(_angle + 90) * PUSH_FORCE, MAX_ACCEL);
+	vsp = phys_force_add(vsp, dcos(_angle + 90) * PUSH_FORCE, MAX_ACCEL);
 }
 
 

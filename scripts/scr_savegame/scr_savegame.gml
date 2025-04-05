@@ -35,7 +35,7 @@ function savegame_load(_file)
 
 	global.hunger = ini_read_real("STATS", "hunger", 100);
 	global.food = ini_read_real("STATS", "food", 0);
-	global.money = ini_read_real("STATS", "money", 1000);
+	global.money = ini_read_real("STATS", "money", 0);
 	global.happiness = ini_read_real("STATS", "happiness", 100);
 	global.color = ini_read_real("STATS", "color", c_white);
 	global.roomIndex = ini_read_real("STATS", "roomIndex", 0);

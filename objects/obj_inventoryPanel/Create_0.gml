@@ -1,6 +1,4 @@
 /// @description Spawns all objects in the inventory, designates them as elements.
-image_alpha = 0.9;
-
 elements = ds_list_create();
 var _width = 32;
 var _height = 32;

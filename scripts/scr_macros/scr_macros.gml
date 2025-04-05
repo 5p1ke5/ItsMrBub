@@ -12,7 +12,8 @@
 
 #region //Constant numbers
 #macro TERMINAL_VELOCITY 3 - (global.lightCharm)
-#macro MAX_ACCEL 3 + (global.powerStone)
+#macro MAX_ACCEL 3 + (global.powerStone * 2) - (global.darkStone * 1.8)
+#macro PUSH_FORCE (2 - (global.wisdomIcon * 1.5)) * (global.inverter ? - 1 : 1)
 #macro HUNGER_INCREMENT 300
 #macro MAX_HAPPINESS 100
 #macro MAX_HUNGER 100
