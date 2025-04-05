@@ -99,6 +99,7 @@
     {"name":"spr_homeFloor","order":1,"path":"sprites/spr_homeFloor/spr_homeFloor.yy",},
     {"name":"spr_inventoryPanel","order":13,"path":"sprites/spr_inventoryPanel/spr_inventoryPanel.yy",},
     {"name":"spr_kill","order":11,"path":"sprites/spr_kill/spr_kill.yy",},
+    {"name":"spr_money_1","order":15,"path":"sprites/spr_money_1/spr_money_1.yy",},
     {"name":"spr_money","order":8,"path":"sprites/spr_money/spr_money.yy",},
     {"name":"spr_playerFace","order":1,"path":"sprites/spr_playerFace/spr_playerFace.yy",},
     {"name":"spr_shopTextBox","order":1,"path":"sprites/spr_shopTextBox/spr_shopTextBox.yy",},
