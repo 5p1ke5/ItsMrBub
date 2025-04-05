@@ -17,6 +17,9 @@
 #macro MAX_HUNGER 100
 #endregion
 
+#region
+#macro SAVE_FILENAME "savegame.sav"
+#endregion
 
 #region	//Controls.
 #macro ANY_BUTTON (keyboard_check(vk_anykey))

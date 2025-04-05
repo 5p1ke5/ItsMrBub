@@ -2,6 +2,7 @@
 phys_initialize(0.02, 0, 0, 0, true);
 
 image_blend = global.color;
-image_alpha = 1;
+
+hue = 0; //Used for color-changing effect.
 
 hungerTimer = HUNGER_INCREMENT;

@@ -4,7 +4,7 @@ function globals_initialize()
 {
 	global.hunger = 100;
 	global.happiness = 100;
-	global.money = 0;
+	global.money = 1000;
 	
 	global.music = noone;
 	

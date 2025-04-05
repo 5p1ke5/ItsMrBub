@@ -13,11 +13,11 @@ if (MOUSE_LEFT_BUTTON_RELEASED_NOT_GUI)
 
 //Color effect
 
-if (color == noone)
+if (global.color == c_rainbow)
 {
-	color += 0.01 * (game_get_speed(gamespeed_fps));
-	if (color > 255) color = 0;
-	image_blend = make_color_hsv(color, 100, 255);
+	hue += 0.01 * (game_get_speed(gamespeed_fps));
+	if (hue > 255) hue = 0;
+	image_blend = make_color_hsv(hue, 100, 255);
 }
 
 //increment hunger timer
