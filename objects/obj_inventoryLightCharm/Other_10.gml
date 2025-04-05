@@ -12,3 +12,6 @@ if (_player != noone)
 		phys_initialize(PLAYER_WEIGHT, frict, hsp, vsp, collision);
 	}
 }
+
+//Plays sfx
+audio_play_sound(sfx_useItem, 2, false);

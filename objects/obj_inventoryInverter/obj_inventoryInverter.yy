@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wisdomIcon",
-    "path":"sprites/spr_wisdomIcon/spr_wisdomIcon.yy",
+    "name":"spr_inverter",
+    "path":"sprites/spr_inverter/spr_inverter.yy",
   },
   "spriteMaskId":null,
   "visible":true,

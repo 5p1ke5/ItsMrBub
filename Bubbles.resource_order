@@ -94,6 +94,7 @@
     {"name":"sfx_no","order":7,"path":"sounds/sfx_no/sfx_no.yy",},
     {"name":"sfx_shoot","order":5,"path":"sounds/sfx_shoot/sfx_shoot.yy",},
     {"name":"sfx_useDye","order":6,"path":"sounds/sfx_useDye/sfx_useDye.yy",},
+    {"name":"sfx_useItem","order":8,"path":"sounds/sfx_useItem/sfx_useItem.yy",},
     {"name":"bg_dungeon1","order":1,"path":"sprites/bg_dungeon1/bg_dungeon1.yy",},
     {"name":"bg_dungeon2","order":2,"path":"sprites/bg_dungeon2/bg_dungeon2.yy",},
     {"name":"bg_dungeon3","order":3,"path":"sprites/bg_dungeon3/bg_dungeon3.yy",},
