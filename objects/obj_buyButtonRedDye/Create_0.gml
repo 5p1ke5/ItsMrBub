@@ -1,0 +1,2 @@
+/// @description Overwrites inherited event, initializes own variables. Should usually be overridden by children.
+button_shop_initialize("Red Dye", obj_inventoryRedDye, 100, "Turns Mr. Bub red. Click to toggle off/on. You can mix dyes to get more colors!");

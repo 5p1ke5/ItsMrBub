@@ -25,5 +25,8 @@ if (enabled)
 				description = "";
 			}
 		}
+		
+		//Plays sfx
+		audio_play_sound(sfx_no, 2, false);
 	}
 }
